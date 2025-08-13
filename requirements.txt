@@ -1,7 +1,8 @@
-fastapi
-uvicorn[standard]
-redis
-sentence-transformers
-numpy
-pydantic
-openai
+fastapi==0.104.1
+uvicorn==0.24.0
+openai==0.28.1
+numpy==1.24.3
+faiss-cpu==1.7.4
+pydantic==2.5.0
+python-multipart==0.0.6
+aiofiles==0.23.2
